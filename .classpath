@@ -10,7 +10,7 @@
 	<classpathentry kind="lib" path="lib/lwjgl.jar" sourcepath="C:/Users/McMacker4/Documents/Java/Libraries/lwjgl-2.9.1/src">
 		<attributes>
 			<attribute name="javadoc_location" value="jar:file:/C:/Users/McMacker4/Documents/Java/Libraries/lwjgl-2.9.1/lwjgl-docs-2.9.1.zip!/javadoc"/>
-			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="VoidPixel Editor 2/lib/natives"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="VoidPixel-Editor/lib/natives"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="lib/slick-util.jar" sourcepath="C:/Users/McMacker4/Documents/Java/Libraries/slick-util/src"/>
