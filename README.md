@@ -5,4 +5,4 @@ You can download the compiled game [HERE](https://github.com/mcmacker4/VoidPixel
 
 ###Known Bugs:
    * Chunks are inverted in the X coordinate and start on -1.
-        * This is an error in VoidPixel game but the creator (Pagoru) refuses to change it.
+    * This is an error in VoidPixel game but the creator (Pagoru) refuses to change it.
