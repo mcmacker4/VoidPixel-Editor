@@ -64,7 +64,6 @@ public class GameLoop {
 		ba[1] = ByteBuffer.wrap(Textures.LOGO32.getTextureData());
 		Display.setIcon(ba);
 		
-		System.out.println(chunkSize);
 		onion = new Onion(createChunks, chunkSize);
 		
 		gui = new GUI();

@@ -14,16 +14,16 @@ public class PrintInstructions {
 		System.out.println("--'RIGHT CLICK' TO PLACE BLOCKS");
 		System.out.println("--'MIDDLE CLICK' TO SELECT THE MATERIAL BEING POINTED AT");
 		System.out.println("--'E' TO OPEN INVENTORY");
-		System.out.println("\t路HERE YOU CAN CHOOSE MATERIAL");
-		System.out.println("\t路OR CREATE YOUR OWN WITH THE BUTTON 'CREATE'");
+		System.out.println("\t稨ERE YOU CAN CHOOSE MATERIAL");
+		System.out.println("\t稯R CREATE YOUR OWN WITH THE BUTTON 'CREATE'");
 		System.out.println("\t\tGIVE IT A NAME AND A COLOR AND PRESS CREATE");
-		System.out.println("\t路OR OR DELETE THE SELECTED ONE WITH THE BUTTON 'DELETE'");
+		System.out.println("\t稯R OR DELETE THE SELECTED ONE WITH THE BUTTON 'DELETE'");
 		System.out.println("--'ESCAPE' TO OPEN PAUSE MENU");
-		System.out.println("\t路YOU CAN PRESS SAVE CHUNKS TO SAVE THE PROGRESS");
-		System.out.println("\t路OR YOU CAN PRESS EXIT TO CLOSE THE GAME");
+		System.out.println("\t穀OU CAN PRESS SAVE CHUNKS TO SAVE THE PROGRESS");
+		System.out.println("\t稯R YOU CAN PRESS EXIT TO CLOSE THE GAME");
 		System.out.println("--YOU CAN ALSO USE 'Z' FOR CONTINUOUS DESTRUCTION");
 		System.out.println("--OR YOU CAN USE 'X' FOR CONTINUOUS PLACEMENT");
-		System.out.println("\t路THE LAST TWO LAG A LOT, PLEASE BE CAREFUL");
+		System.out.println("\t稵HE LAST TWO LAG A LOT, PLEASE BE CAREFUL");
 		
 	}
 	
