@@ -54,35 +54,12 @@ public class Chunk {
 			for(int k = 0; k < BLOCKS_Z; k++) {
 				for(int i = 0; i < BLOCKS_X; i++) {
 					
-					if(getBlockAt(i, j, k + 1).isSolid())
-						getBlockAt(i, j, k).setFaceRender(Faces.BACK, false);
-					else
-						getBlockAt(i, j, k).setFaceRender(Faces.BACK, true);
-					
-					if(getBlockAt(i, j, k - 1).isSolid())
-						getBlockAt(i, j, k).setFaceRender(Faces.FRONT, false);
-					else
-						getBlockAt(i, j, k).setFaceRender(Faces.FRONT, true);
-					
-					if(getBlockAt(i, j + 1, k).isSolid())
-						getBlockAt(i, j, k).setFaceRender(Faces.TOP, false);
-					else
-						getBlockAt(i, j, k).setFaceRender(Faces.TOP, true);
-					
-					if(getBlockAt(i, j - 1, k).isSolid())
-						getBlockAt(i, j, k).setFaceRender(Faces.BOTTOM, false);
-					else
-						getBlockAt(i, j, k).setFaceRender(Faces.BOTTOM, true);
-					
-					if(getBlockAt(i + 1, j, k).isSolid())
-						getBlockAt(i, j, k).setFaceRender(Faces.RIGHT, false);
-					else
-						getBlockAt(i, j, k).setFaceRender(Faces.RIGHT, true);
-					
-					if(getBlockAt(i - 1, j, k).isSolid())
-						getBlockAt(i, j, k).setFaceRender(Faces.LEFT, false);
-					else
-						getBlockAt(i, j, k).setFaceRender(Faces.LEFT, true);
+					getBlockAt(i, j, k).setFaceRender(Faces.BACK, !getBlockAt(i, j, k + 1).isSolid());
+					getBlockAt(i, j, k).setFaceRender(Faces.FRONT, !getBlockAt(i, j, k - 1).isSolid());
+					getBlockAt(i, j, k).setFaceRender(Faces.TOP, !getBlockAt(i, j + 1, k).isSolid());
+					getBlockAt(i, j, k).setFaceRender(Faces.BOTTOM, !getBlockAt(i, j - 1, k).isSolid());
+					getBlockAt(i, j, k).setFaceRender(Faces.RIGHT, !getBlockAt(i + 1, j, k).isSolid());
+					getBlockAt(i, j, k).setFaceRender(Faces.LEFT, !getBlockAt(i - 1, j, k).isSolid());
 					
 				}
 			}
