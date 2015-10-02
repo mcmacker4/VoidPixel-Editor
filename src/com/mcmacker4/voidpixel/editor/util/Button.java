@@ -29,10 +29,8 @@ public class Button {
 	
 	public void draw() {
 		Color c;
-		
 		if(isMouseOver()) c = overColor;
 		else c = normalColor;
-		
 		font.drawString(x, y, text, c);
 	}
 	
