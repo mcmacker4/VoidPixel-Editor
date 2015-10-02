@@ -1,5 +1,11 @@
 package com.mcmacker4.voidpixel.editor.util;
 
+/*
+ *
+ * @author: Cout970
+ *
+*/
+
 public class Vector3 {
 
 	public double x,y,z;
